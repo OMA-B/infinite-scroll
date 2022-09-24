@@ -1,6 +1,6 @@
 // Fetching photos from Unsplash API
 const count = 30;
-// your API KEY goes here... more detail in README.md
+const apiKey = 'KRq50hQm2eumJjK6vPravfOh5UWcguHIiBBhJdgJFb4';
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
 let photos = [];
